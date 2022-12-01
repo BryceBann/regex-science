@@ -2,9 +2,8 @@
 With this walk through we will be looking at how one would go about matching hex values and the ways it can be used. The main uses of hex would be either in RGB color coding mainly used in CSS or with base-10 and base-16 syntax
 
 ## Summary
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
-
+In this walk through we will be using the following regex code snippet:  
+`/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
 ## Table of Contents
 
 - [Anchors](#anchors)
