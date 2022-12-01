@@ -1,6 +1,5 @@
-# Title (replace with your title)
-
-Introductory paragraph (replace this with your text)
+# Matching with hex regex
+With this walk through we will be looking at how one would go about matching hex values and the ways it can be used. The main uses of hex would be either in RGB color coding mainly used in CSS or with base-10 and base-16 syntax
 
 ## Summary
 
