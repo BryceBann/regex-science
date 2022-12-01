@@ -4,6 +4,8 @@ With this walk through we will be looking at how one would go about matching hex
 ## Summary
 In this walk through we will be using the following regex code snippet:  
 `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
+
+In the above code snippet follows multiple small rules that allow us to find any hex code with 6 or three characters
 ## Table of Contents
 
 - [Anchors](#anchors)
