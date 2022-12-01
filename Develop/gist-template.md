@@ -37,7 +37,7 @@ The OR operator sounds almost simple as it is with the syntax being `|` you will
 let str = "First HTML appeared, then CSS, then JavaScript";
 alert( str.match(regexp) ); // 'HTML', 'CSS', 'JavaScript' `
 
-If you look at the regex code we have you will see that we asking the regex code to match with `/^#?([a-f0-9]{6}` or `|` `[a-f0-9]{3})$/`
+If you look at the regex code we have you will see that we asking the regex code to match with `/^#?([a-f0-9]{6}` or `|` `[a-f0-9]{3})$/` this will take in two different types of matches.
 ### Character Classes
 
 ### Flags
