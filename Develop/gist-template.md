@@ -25,11 +25,19 @@ In the above code snippet follows multiple small rules that allow us to find any
 ### Anchors
 To declare the start of a regex you will use the carrot or `^` before you start to create your regex. To declare the ending of a regex you would then enter a dollar sign or `$` this will end youre regex. A simple exampale to see this would look like `/^\d\d:\d\d$/` this is showing that your regex will have two digits followed by a colon and two more digits.
 ### Quantifiers
-There are four different quantifiers `+, *, ? and {n}` these will help us while trying to match with our regex the following examples will help show and explain.
+There are four different quantifiers `+, *, ? and {n}`. We will only need to use the `?, and {n}` quantifiers they will be explaned further below.
 
 Quantity: `{n}` as being one of the simplest this will help us specifie multiple characters we need `\d{5}` is the same as `\d\d\d\d\d` by adding a `\b` this will exclude any lonfer numbers. We can also do a range this will select the how many characters are needed and how many is to many for example `{3,5}` will select the sequence of characters that is 3 charcters long but no longer then 5. To let the range extend to more characters you will simply use the a snippet `{1,}` this will find the designated charcter starting will a single character and will accept as many that are grouped together.
-### OR Operator
 
+`?`: this will identify as a 1 or a zero in other words making a symbol optional.
+the following pattern `\w+ou?r` will match with both "favor" and "favour".
+### OR Operator
+The OR operator sounds almost simple as it is with the syntax being `|` you will add this to your regex and it will match with one set or another the following examples will help. 
+` let regexp = /html|php|css|java(script)?/gi;
+let str = "First HTML appeared, then CSS, then JavaScript";
+alert( str.match(regexp) ); // 'HTML', 'CSS', 'JavaScript' `
+
+If you look at the regex code we have you will see that we asking the regex code to match with `/^#?([a-f0-9]{6}` or `|` `[a-f0-9]{3})$/`
 ### Character Classes
 
 ### Flags
