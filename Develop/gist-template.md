@@ -42,8 +42,6 @@ If you look at the regex code we have you will see that we asking the regex code
 There are 3 main types of character classes `\d, \s, \w` which stand for `\d`: digit, a character from 0 to 9. `\s`: space, will repesent the space between, this while also have many other types of spaces that can be added in see [here](https://javascript.info/regexp-character-classes). `\w`: word, this will stand for a "wordly" charcter mainly used for alphabetical characters.
 
 Looking at a small piece of the regex code we can see a simple way to make a match looking at `[a-f0-9]` we can use `/\w-\w\d-\d/`.
-### Flags
-
 ### Grouping and Capturing
 
 ### Bracket Expressions
