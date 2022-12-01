@@ -23,7 +23,7 @@ In the above code snippet follows multiple small rules that allow us to find any
 ## Regex Components
 
 ### Anchors
-
+To declare the start of a regex you will use the carrot or `^` before you start to create your regex. To declare the ending of a regex you would then enter a dollar sign or `$` this will end youre regex. A simple exampale to see this would look like `/^\d\d:\d\d$/` this is showing that your regex will have two digits followed by a colon and two more digits.
 ### Quantifiers
 
 ### OR Operator
